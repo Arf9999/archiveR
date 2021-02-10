@@ -3,7 +3,7 @@
 
 # archiveR
 
-The goal of archiveR is to automate uploads of urls to web.archive.org
+The goal of archiveR is to automate upload of urls to web.archive.org
 
 ## Installation
 
