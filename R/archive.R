@@ -86,7 +86,7 @@ web_archive_list <- function(url_list, cookies) {
     end <-
       ifelse((steps + 4) > length(url_list), length(url_list), steps + 4)
 
-    map(url_list[start:end], pass_query, cookies = cookies)
+    purrr::map(url_list[start:end], pass_query, cookies = cookies)
     Sys.sleep(45)
   }
 }
